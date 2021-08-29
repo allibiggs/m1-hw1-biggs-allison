@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 20px;
+    color: yellowgreen;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+main {
+    padding: 70px 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.4rem;
+    padding-top: 20px;
+    color: yellowgreen;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
